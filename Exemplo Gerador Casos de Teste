@@ -12,6 +12,7 @@ int main() {
     while(1) {
         scanf("%d %d", &n, &m);
         if(n == 0) break;
+        fprintf(out, "%d %d\n", n, m);
 
         for(int i=0; i<m; i++) {
             // busca valor aleatório, dentro dos limites
