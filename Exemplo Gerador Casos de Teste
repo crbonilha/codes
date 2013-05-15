@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    // arquivo o qual conterá a saída desse programa
+    FILE *out = fopen("bilhetes_out.txt", "w");
+    
+    // valores referentes ao exercício
+    int n, m;
+    // auxiliar que conterá um valor aleatório
+    int random_value;
+    while(1) {
+        scanf("%d %d", &n, &m);
+        if(n == 0) break;
+
+        for(int i=0; i<m; i++) {
+            // busca valor aleatório, dentro dos limites
+            random_value = (rand()%n)+1;
+            // imprime tal valor no arquivo de saída
+            fprintf(out, "%d ", random_value);
+        }
+        fprintf(out, "\n");
+    }
+
+    fprintf(out, "0 0\n");
+}
