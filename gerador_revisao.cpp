@@ -5,7 +5,7 @@
 const int CASOS = 30;
 
 int main() {
-  int d, size;
+	int d, size;
 	char n[110];
 	
 	FILE * out = fopen("revisao.in", "w");
@@ -16,7 +16,10 @@ int main() {
 		
 		size = (rand()%90)+10;
 		for(int i=0; i<size; i++) {
-			n[i] = (rand()%9) + '0';
+			if(!(rand()%4))
+				n[i] = d + '0';
+			else
+				n[i] = (rand()%9) + '0';
 		}
 		n[size] = '\0';
 		
