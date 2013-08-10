@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-  int n;
+	int n;
 	
 	FILE * out = fopen("pareseimpares.in", "w");
 	
