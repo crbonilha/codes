@@ -1,9 +1,9 @@
-    /*
-     * Este é um trecho do código utilizado no exercício Imagem - [link]
-     * Caso haja dúvidas, poste um comentário em [link]
-     */
+       /*
+     	* Este é um trecho do código utilizado no exercício Imagem - [link]
+     	* Caso haja dúvidas, poste um comentário em [link]
+     	*/
     
-    // processando
+    	// processando
 	n = a/n;
 	m = b/m;
 	for(int i=0; i<a; i++) {
