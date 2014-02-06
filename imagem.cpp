@@ -1,6 +1,9 @@
 /*
- * Este é um trecho do código utilizado no exercício Imagem - [link]
- * Caso haja dúvidas, poste um comentário em [link]
+ * Este é um trecho do código utilizado no exercício Imagem - 
+ * http://www.urionlinejudge.com.br/judge/pt/problems/view/1516
+ * 
+ * Caso haja dúvidas, poste um comentário em -
+ * http://crbonilha.blogspot.com/2014/02/contest-bonilha-editorial.html
  */
    
 // processando
