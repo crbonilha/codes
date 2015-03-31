@@ -1,5 +1,5 @@
 // Código relacionado a este post no meu blog:
-// 
+// http://crbonilha.com/pt/um-pouco-sobre-o-salesman-problem/
 
 #include <stdio.h>
 #include <string.h>
