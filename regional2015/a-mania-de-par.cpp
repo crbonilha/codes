@@ -22,7 +22,7 @@ int main() {
 
 		adj[a].push_back(ii(b, c));
 		adj[b].push_back(ii(a, c));
-	}
+	} 
 
 	for(int i=1; i<=n; i++) {
 		dfs(i, i, 0, 0);
